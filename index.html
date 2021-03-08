@@ -3,24 +3,38 @@
 <html>
   <head>
     <style>
-      table, th, td {
-        border: 1px solid black;
+      @font-face {
+        font-family: "riffic";
+        src: url(fonts/Riffic.ttf) format("truetype");
+      }
+
+      .maintable {
+        background-color: rgba(33, 33, 33, 0.7);
+        font-family: "riffic";
+        letter-spacing: 0.1em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0px;
         border-collapse: collapse;
       }
     </style>
   </head>
-  <body>
-    <h1>spaghetti</h1>
-    <table style="width:100%">
-      <tr>
-        <th>top header</th>
-      </tr>
-      <tr>
-        <td>middle text</td>
-      </tr>
-      <tr>
-        <td>bottom text</td>
-      </tr>
-    </table>
+  <body bgcolor="#FFFFFF">
+    <div>spaghetti</div>
+
+    <div>
+      <table class="maintable">
+        <tr>
+          <th style="color:#FFFFFF">top header</th>
+        </tr>
+        <tr>
+          <td style="color:#FFFFFF">RedOrBlue</td>
+        </tr>
+        <tr>
+          <td style="color:#FFFFFF">Coated_Badger</td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
