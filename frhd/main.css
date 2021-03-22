@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "riffic";
+  src: url("fonts/Riffic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("fonts/RobotoBoldCondensed.ttf") format("truetype");
+}
+
+html {
+  background: fixed url("universe.png") no-repeat center center #000000;
+  background-size: cover;
+}
+
+.overall {
+  position: relative;
+  display: block;
+  width: 85%;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin: 40px auto;
+  background-color: rgba(33, 33, 33, 0.7);
+  border-collapse: collapse;
+  font-family: "roboto";
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgba(20, 20, 20, 0.7)
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(60, 60, 60, 0.7)
+}
+
+.header {
+  height: 80px;
+  border-bottom: 1px solid #555;
+}
+
+.bline {
+  height: 40px;
+  border-bottom: 1px solid #555;
+  font-family: "riffic";
+}
