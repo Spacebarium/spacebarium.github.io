@@ -1,2 +1,5 @@
 # spacebarium.github.io
-coggers in the chat. let's learn html and shit weeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+hehe html time
+
+ORG leaderboard moved to:
+https://spacebarium.github.io/frhd/org
